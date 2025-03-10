@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?love,romantic') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.photos {
+    margin-top: 20px;
+}
+
+.photos img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
